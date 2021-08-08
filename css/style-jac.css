@@ -1,0 +1,350 @@
+body, div, table, td, tr {
+	font-size: 12pt;
+	font-family: Arial, "Times New Roman", Times, serif;
+	color: #000000;
+	text-align:left;
+}
+	
+#newfonts H1 {
+font-size: 20pt;
+color: #CC0000;
+font-family: Arial, Georgia, Times New Roman; 
+}
+
+#newfonts H6 {
+	font-weight:bold;
+	font-size: 16px;
+	text-align:center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	font-family: Arial, Georgia, Times New Roman; 
+	}
+	
+#newfonts H2 {
+	font-family: Arial, Georgia, Times New Roman; 
+	color: #2579DA;
+	font-size: 20pt;}
+	
+#newfonts .redsubheading {
+	font-family: Arial, Georgia, Times New Roman; 
+	font-size: 14pt;
+	font-weight: bold;
+	color: #CA0000;}
+	
+#newfonts {
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;}
+	
+#newfonts p{
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;}
+	
+.newfonts {
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align:left;
+}
+
+.newfonts td {
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align:left;
+}
+
+#newfonts .testimonials {
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	LINE-HEIGHT: 120%;
+	FONT-FAMILY: Arial, Courier, mono;}
+
+
+#login {
+	width: 500px;
+	padding: 3px;
+	border:1px;	}
+	
+#contactform {
+	border: 1px solid #BB2718;
+	padding: 0px;
+	width: 400px;	}
+	
+H1 {
+	font: Arial, "Times New Roman", Times, serif;
+	font-size: 17pt;
+	line-height: 130%;
+	font-weight: bold;
+	color: #CA0000;}
+
+	
+H2 {
+	font-family: Arial, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #2579DA;
+	font-size: 12pt;}
+H6 {
+	font-weight:bold;
+	font-size: 16px;
+	text-align:center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	}
+	
+table.yellowbox {
+	border: 1px solid #BB2718;
+	background-color: #ffffe6;
+	width: 90%; 
+	padding: 15px;	}
+	
+table.orderform {
+	background-color:#FFFFFF;
+	width: 85%; 
+	border: 1px solid #BB2718;
+	padding:7px;	}
+
+table.orderformwidth {
+	width: 80%;}
+	
+td.main {
+	padding:35px;
+	background-image: url(/main-images/bkrnd.gif);}
+
+td.main2 {
+	padding:10px;
+	background-image: url(/main-images/bkrnd2.gif);}
+	
+td.yellowtick {
+	background-image: url(/main-images/yellow-tick.gif);
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 65px;
+	}
+td.tick {
+	background-image: url(/main-images/tick.gif);
+	background-repeat: no-repeat;
+	background-position:top;
+	width: 60px;
+	height: 60px;
+	padding:4px;}
+
+.indent {
+	text-indent: 10px;}
+	
+.centertext {
+	text-align:center;}
+	
+.bolddetails { 
+	font-size: 10pt; 
+	font-weight: bold;
+	font-style:italic;}
+
+.testimonials {
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	LINE-HEIGHT: 120%;
+	FONT-FAMILY: Arial, Courier, mono;}
+
+.textbold {
+	font-weight:bold;}
+
+.subheading_red {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #CA0000;}
+
+.redsubheading {
+	font-size: 14pt;
+	font-weight: bold;
+	color: #CA0000;}
+	
+.subheadingblackblink {
+	font-family: Arial, Times New Roman, Times;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration:blink;}	
+
+.blackblink {
+	font-weight: bold;
+	color: #000000;
+	text-decoration:blink;}	
+	
+.redtextbold {
+	font-weight:bold;
+	color: #DD0000;}
+	
+.white {
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	MARGIN: 0px;
+	COLOR: #ffffff;
+	FONT-WEIGHT: bold;
+}
+
+.tablefullborder {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;}
+
+span.menuElement { padding: 0 1em; } 
+
+table.homeorderbox {
+	background-color: #FFFF00;
+	border: 1px solid #000000;
+	padding: 8px;
+	width: 85%;
+}
+
+table.help {
+	width: 100%;
+	padding: 5px; 
+	border: 1px solid #000000;
+	background-color: #E3E3EA;
+	margin-bottom:15px;}
+	
+td.blue-tick {
+	background-image: url(/main-images/tick-blue.gif);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-color:#CECEE1;
+	width: 60px;
+	height: 60px;
+	padding:4px;}
+	
+td.blue {
+	background-color:#CECEE1;}
+
+td.grey-tick {
+	background-image: url(/main-images/tick-grey.gif);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-color:#F5F5F5;
+	width: 60px;
+	height: 60px;
+	padding:4px;}
+	
+td.grey {
+	background-color:#F5F5F5;}
+
+table.grey-home {
+	background-color:#F5F5F5;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #9E9E9E;}
+	
+.highlightyellow {
+	background-color: #FFFF00;
+	font-weight: bold;
+}
+
+table.aff-login {
+	border: 1px solid #9A9A9A;
+	background-color: #EFEFEF;
+	padding: 3px; 
+	margin: 0px 0px 0px 5px;}
+	
+.news {
+	padding: 5px;
+	border: 2px dashed #CA0000;
+	background-color:#F5F5F5;}
+
+.news-home {
+	padding: 5px;
+	border: 2px dashed #CA0000;
+	background-color:#F5F5F5;
+	height: 220px;}
+	
+.dashed-border-F5 {
+	background-color: #F5F5F5; 
+	border: 2px dashed #BB2718;
+	width:600px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;}
+	
+.dashed-border-F5 ul {
+	text-align:left;}
+	
+.border {	
+	width: 90%; 
+	border: 1px solid #CA0000;
+	padding: 10px;}
+
+a.small-link {	
+	font: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	font-size: 12px;	}
+	
+.black-bold-underline {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: underline;}
+	
+.redboldblink {
+	color: #DD0000; 
+	font-weight: bold;
+	text-decoration: blink;}
+	
+#dotted {
+	width: 100%; 
+	border-top: 1px dotted #000000;
+	margin: 10px 0px 10px 0px;}
+	
+.image-dashedborder {
+	border: 2px dashed #DD0000;
+	margin: 7px;}
+	
+#hoplink-gen {
+	background-color: #DBE7F5;
+	padding: 20px;
+	border: 1px solid #C8D3DF;}
+
+.dashed-border-box {
+	border: 2px dashed #DD0000; 
+	padding: 20px; }
+	
+.blink {
+	text-decoration:blink;}
+.nobo a{border:none}
+
+.F5-bg-blue-border {
+    background-color: #F5F5F5;
+    border: 1px solid #C8D3DF;
+    display: table;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: auto;
+    padding: 10px;
+    width: 97%;
+}
+
+.blue-border-only {
+    background-color: #FFFFFF;
+    border: 1px solid #C8D3DF;
+    clear: left;
+    overflow: auto;
+    padding: 8px;
+}
+.launch-box {
+    border: 1px dashed #BB2718;
+    display: table;
+    padding: 8px;
+}
+
+.grey-box, .grey-box p, .grey-box div {text-align:center;margin-bottom:10px}
+

@@ -1,0 +1,141 @@
+#menuh
+	{
+	float:left;
+	width:930px;
+	background:url(../navigation/images/navbackground.png) repeat-x center top;
+	}		
+
+#menuh ul
+	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+	}
+
+#menuh li
+	{
+	position:relative;
+	min-height: 1px;		/* Sophie Dennis contribution for IE7 */
+	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
+	margin:0;	
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	text-shadow:-1px -1px #000; 
+	}
+
+#menuh ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	padding: 1em;
+	margin:-1em 0 0 -1em;
+	}
+
+#menuh ul ul ul
+	{
+	top:0;
+	left:100%;
+	}
+
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	}
+
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul
+{display:none;}
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul
+{display:block;}
+
+/* End CSS Drop Down Menu */
+
+#NavWrapper {
+	margin:0;
+	padding:0;
+	width:980px;
+	height:51px;
+	background:url(../navigation/images/NavShadow.png) no-repeat center bottom;
+}
+.clearfix {
+	clear:both;
+	margin:0;
+	padding:0;
+}
+#menuh ul li.separator {
+	width:2px; 
+	height:36px;
+	padding:0px;
+	margin:0px; 
+	background:url(../navigation/images/navseparator.png) no-repeat left;
+}
+
+#menuh li {
+	margin:0;	
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	text-shadow:-1px -1px #000; 
+}
+#menuh ul li a {
+	text-align:center;
+	padding:0px 30px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFF;
+	text-decoration:none;
+	height:39px;
+	line-height:33px;
+	display:block;
+	}
+#menuh ul li:hover ul li a:hover {
+}
+#menuh li:hover {
+	background:url(../navigation/images/bghover.png) repeat-x left top;
+}
+#menuh li:active {
+	background:url(../navigation/images/bghover.png) repeat-x left top;
+}
+#menuh ul ul li {
+	background:url(../navigation/images/navbackground.png) repeat-x left top;	
+}
+#menuh ul ul li{
+	height:36px;
+	width:330px;
+}
+#menuh ul ul li a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFF;
+	font-size:16px;
+	text-decoration:none;
+	text-align:left;
+	line-height:34px;
+	padding:0px 10px;
+	color:#FFF;
+}
+#menuh ul ul li a:hover{
+	text-align:left;
+	padding:0px 10px;
+	background:url(../navigation/images/subnavhover.png) repeat-x;
+}
+
+#NavigateLink li, #NavigateProducts li, #FooterLatestPost li { margin:0px }
