@@ -25,19 +25,19 @@ body {
 	margin:0 auto;
 }
 #ContentTopShadow {
-	background:url(images/ContentTopShadow.png) no-repeat center;
+	background:url(../images/ContentTopShadow.png) no-repeat center;
 	height:47px;
 }
 #ContentShadow {
-	background:url(images/ContentShadow.png) repeat-y center top;
+	background:url(../images/ContentShadow.png) repeat-y center top;
 }
 #Content {
 	width:980px;
 	margin:0 auto;
-	background:url(images/ContentBg.png) #FFF repeat-y center;
+	background:url(../images/ContentBg.png) #FFF repeat-y center;
 }
 #ContentBotShadow {
-	background:url(images/ContentBotShadow.png) no-repeat center;
+	background:url(../images/ContentBotShadow.png) no-repeat center;
 	height:47px;
 }
 #TopContent {
@@ -53,7 +53,7 @@ body {
 	width:489px;
 }
 #ReadMoreButton {
-	background:url(images/ReadMoreButton.png) no-repeat;
+	background:url(../images/ReadMoreButton.png) no-repeat;
 	width:89px;
 	height:22px;
 	font-family:Arial, Helvetica, sans-serif;
@@ -65,7 +65,7 @@ body {
 	float:left;
 }
 #CommentButton {
-	background:url(images/CommentButton.png) no-repeat;
+	background:url(../images/CommentButton.png) no-repeat;
 	width:115px;
 	height:22px;
 	font-family:Arial, Helvetica, sans-serif;
@@ -78,17 +78,17 @@ body {
 	margin-left:10px;
 }
 #SocialMediaBox {
-	background:url(images/SocialBg.png) no-repeat;
+	background:url(../images/SocialBg.png) no-repeat;
 	width:489px;
 	height:58px;
 	margin:0 auto;
 }
 #FormMen {
-	background:url(images/FormMenBg.png) no-repeat;
+	background:url(../images/FormMenBg.png) no-repeat;
 	height:150px;
 }
 #FormWomen {
-	background:url(images/FormWomenBg.png) no-repeat;
+	background:url(../images/FormWomenBg.png) no-repeat;
 	height:150px;
 }
 #FormNameMen {
@@ -140,7 +140,7 @@ body {
 	box-shadow: inset 0 0 5px 5px #e2e2e2;
 }
 #FooterWrap {
-	background:url(images/FooterBg.png) repeat-x;
+	background:url(../images/FooterBg.png) repeat-x;
 	height:372px;
 	margin-top:40px;
 }
@@ -355,7 +355,7 @@ body {
 
 }
 #SideBarProduct ul#ProductTick li {
-	background:url(images/HeartBullet.png) 0px 12px no-repeat;
+	background:url(../images/HeartBullet.png) 0px 12px no-repeat;
 }
 #SocialMediaBox2 {
 	width:350px;
@@ -396,7 +396,7 @@ body {
 	margin-left:-175px;
 	height: 281px;
 	width: 929px;
-	background:url(menpullaway/images/arrow-point.png) no-repeat;
+	background:url(/menpullaway/images/arrow-point.png) no-repeat;
 	z-index:1;
 }
 #Add-cart-form-box2 {
@@ -443,7 +443,7 @@ input.get-start-forms {
 	margin-right:0px;
 }
 #vid-hover {
-	background:url(menpullaway/images/playvid-hover.png) center top no-repeat;
+	background:url(/menpullaway/images/playvid-hover.png) center top no-repeat;
 	width:434px; 
 	height:245px; 
 	margin:0 auto;
@@ -469,7 +469,7 @@ input.get-start-forms {
 }
 
 #StepArrow {
-	background:url(conversationchemistry/images/otoStepArrow.png) no-repeat center top;
+	background:url(/conversationchemistry/images/otoStepArrow.png) no-repeat center top;
 	height:54px;
 }
 #oto-content p, li {
@@ -517,7 +517,7 @@ input.get-start-forms {
 	margin-left:-10px;
 }
 #brushcheck-bullet li {
-	background:url(conversationchemistry/images/OTO-arrow.png) no-repeat 0px 25px;
+	background:url(/conversationchemistry/images/OTO-arrow.png) no-repeat 0px 25px;
 	padding: 0px 10px 0px 55px;
 }
 #AddCartBox {
